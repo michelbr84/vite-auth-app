@@ -13,58 +13,76 @@ Um projeto simples de **Login e Cadastro** utilizando **React + Vite + TypeScrip
 
 ## 📂 Estrutura do Projeto
 
-vite-auth-app/ ├── public/ # Arquivos estáticos (favicons, imagens, etc.) ├── src/ │ ├── components/ # Componentes reutilizáveis (se necessário) │ ├── context/ # Contexto para autenticação │ │ ├── AuthContext.tsx # Gerenciamento de login e registro │ ├── pages/ # Páginas da aplicação │ │ ├── Home.tsx # Página inicial (Login/Cadastro) │ │ ├── UserPage.tsx # Página de boas-vindas do usuário │ ├── App.tsx # Configuração das rotas │ ├── main.tsx # Ponto de entrada da aplicação │ ├── index.css # Estilos globais ├── .gitignore # Arquivos a serem ignorados pelo Git ├── tsconfig.json # Configuração do TypeScript ├── vite.config.ts # Configuração do Vite ├── package.json # Dependências do projeto ├── README.md # Documentação do projeto
+```
+vite-auth-app/
+├── public/                  # Arquivos estáticos (favicons, imagens, etc.)
+├── src/
+│   ├── components/          # Componentes reutilizáveis (se necessário)
+│   ├── context/             # Contexto para autenticação
+│   │   ├── AuthContext.tsx  # Gerenciamento de login e registro
+│   ├── pages/               # Páginas da aplicação
+│   │   ├── Home.tsx         # Página inicial (Login/Cadastro)
+│   │   ├── UserPage.tsx     # Página de boas-vindas do usuário
+│   ├── App.tsx              # Configuração das rotas
+│   ├── main.tsx             # Ponto de entrada da aplicação
+│   ├── index.css            # Estilos globais
+├── .gitignore               # Arquivos a serem ignorados pelo Git
+├── tsconfig.json            # Configuração do TypeScript
+├── vite.config.ts           # Configuração do Vite
+├── package.json             # Dependências do projeto
+├── README.md                # Documentação do projeto
+```
 
+---
 
-## 📥 Como Instalar e Rodar o Projeto
+## 📥 **Como Instalar e Rodar o Projeto**
 
 ### 1️⃣ **Clone o Repositório**
 ```sh
 git clone https://github.com/seu-usuario/vite-auth-app.git
 cd vite-auth-app
+```
 
-2️⃣ Instale as Dependências
-Se estiver usando pnpm:
-
-sh
-Copy
-Edit
+### 2️⃣ **Instale as Dependências**
+Se estiver usando **pnpm**:
+```sh
 pnpm install
-Ou, se estiver usando npm:
-
-sh
-Copy
-Edit
+```
+Ou, se estiver usando **npm**:
+```sh
 npm install
-3️⃣ Rodando o Servidor
+```
+
+### 3️⃣ **Rodando o Servidor**
 Para iniciar o projeto em modo de desenvolvimento:
-
-sh
-Copy
-Edit
+```sh
 pnpm dev
+```
 Ou:
-
-sh
-Copy
-Edit
+```sh
 npm run dev
-O projeto estará disponível em http://localhost:5173/ 🚀
+```
+O projeto estará disponível em **`http://localhost:5173/`** 🚀  
 
-4️⃣ Gerando a Versão de Produção
-sh
-Copy
-Edit
+### 4️⃣ **Gerando a Versão de Produção**
+```sh
 pnpm build
+```
 Ou:
-
-sh
-Copy
-Edit
+```sh
 npm run build
-Os arquivos otimizados ficarão na pasta dist/.
+```
+Os arquivos otimizados ficarão na pasta **`dist/`**.
 
-📸 Demonstração
-🖥️ Tela de Login	🏠 Página do Usuário
-📜 Licença
-Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e melhorá-lo. 😊
+---
+
+## 📸 **Demonstração**
+
+| 🖥️ Tela de Login | 🏠 Página do Usuário |
+|------------------|---------------------|
+| ![Login](https://via.placeholder.com/400x300) | ![Welcome](https://via.placeholder.com/400x300) |
+
+---
+
+## 📜 **Licença**
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para usá-lo e melhorá-lo. 😊

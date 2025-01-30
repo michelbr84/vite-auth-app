@@ -1,4 +1,4 @@
-# Logs
+# Logs e arquivos de depuração
 logs
 *.log
 npm-debug.log*
@@ -7,18 +7,137 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Editor directories and files
-.vscode/*
+# Dados de execução
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório para bibliotecas instrumentadas por jscoverage/JSCover
+lib-cov
+
+# Diretórios de cobertura de código usados por ferramentas como Istanbul
+coverage
+*.lcov
+.nyc_output
+
+# Armazenamento intermediário do Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Diretório de dependências do Bower (https://bower.io/)
+bower_components
+
+# Configuração node-waf
+.lock-wscript
+
+# Add-ons binários compilados (https://nodejs.org/api/addons.html)
+build/Release
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretório de dependências do Snowpack (https://snowpack.dev/)
+web_modules/
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Cache opcional do npm
+.npm
+
+# Cache opcional do eslint
+.eslintcache
+
+# Cache opcional do stylelint
+.stylelintcache
+
+# Cache do Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico do REPL do Node.js
+.node_repl_history
+
+# Arquivos gerados pelo comando 'npm pack'
+*.tgz
+
+# Arquivo de integridade do Yarn
+.yarn-integrity
+
+# Arquivos de configuração de ambiente (dotenv)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Cache do parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Saída de build do Next.js
+.next
+out
+
+# Saída de build do Nuxt.js
+.nuxt
+dist
+
+# Arquivos do Gatsby
+.cache/
+# Descomente a linha public se estiver usando Gatsby e não Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Saída de build do VuePress
+.vuepress/dist
+
+# Diretórios temporários e de cache do VuePress v2.x
+.temp
+.cache
+
+# Cache e arquivos gerados pelo Docusaurus
+.docusaurus
+
+# Diretórios do Serverless
+.serverless/
+
+# Cache do FuseBox
+.fusebox/
+
+# Arquivos locais do DynamoDB
+.dynamodb/
+
+# Arquivo de porta do TernJS
+.tern-port
+
+# Armazena versões do VSCode usadas para testar extensões
+.vscode-test
+
+# Configurações específicas do editor VSCode
+.vscode/
 !.vscode/extensions.json
-.idea
+
+# Configuração do WebStorm / IntelliJ
+.idea/
+
+# Arquivos do MacOS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Suporte ao Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
